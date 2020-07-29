@@ -12,6 +12,7 @@
 		F555D22B24D11F2B00CB337A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F555D22924D11F2B00CB337A /* Main.storyboard */; };
 		F555D22D24D11F2D00CB337A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F555D22C24D11F2D00CB337A /* Assets.xcassets */; };
 		F555D23024D11F2D00CB337A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F555D22E24D11F2D00CB337A /* LaunchScreen.storyboard */; };
+		F555D23924D1227A00CB337A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F555D23824D1227A00CB337A /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F555D22C24D11F2D00CB337A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F555D22F24D11F2D00CB337A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F555D23124D11F2D00CB337A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F555D23824D1227A00CB337A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F555D23924D1227A00CB337A /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				F555D22424D11F2B00CB337A /* Bot WebView */,
 				F555D22324D11F2B00CB337A /* Products */,
+				F555D23724D1227900CB337A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				F555D23124D11F2D00CB337A /* Info.plist */,
 			);
 			path = "Bot WebView";
+			sourceTree = "<group>";
+		};
+		F555D23724D1227900CB337A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F555D23824D1227A00CB337A /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,6 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X2YFHG39PR;
 				INFOPLIST_FILE = "Bot WebView/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X2YFHG39PR;
 				INFOPLIST_FILE = "Bot WebView/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
